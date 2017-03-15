@@ -2,6 +2,8 @@
 [forumurl]: https://forum.linuxserver.io
 [ircurl]: https://www.linuxserver.io/irc/
 [podcasturl]: https://www.linuxserver.io/podcast/
+[appurl]: https://nginx.org/
+[hub]: https://hub.docker.com/r/lsioarmhf/nginx-aarch64/
 
 [![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)][linuxserverurl]
 
@@ -12,12 +14,10 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 
 # lsioarmhf/nginx-aarch64
 [![](https://images.microbadger.com/badges/version/lsioarmhf/nginx-aarch64.svg)](https://microbadger.com/images/lsioarmhf/nginx-aarch64 "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/lsioarmhf/nginx-aarch64.svg)](http://microbadger.com/images/lsioarmhf/nginx-aarch64 "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/nginx-aarch64.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/nginx-aarch64.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-arm64/lsioarm64-nginx)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-arm64/job/lsioarm64-nginx/)
-[hub]: https://hub.docker.com/r/lsioarmhf/nginx-aarch64/
 
 This Container is a simple nginx webserver configured with default and ssl, and all relevant config files moved out the user via /config for ultimate control. it contains some of the basic php-packages. and is built on our internal nginx baseimage.
 
-[![nginx](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nginx-banner.png)][nginxurl]
-[nginxurl]: https://nginx.org/
+[![nginx](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nginx-banner.png)][appurl]
 
 ## Usage
 
